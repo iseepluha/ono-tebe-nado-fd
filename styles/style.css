@@ -178,14 +178,6 @@
   background-size: cover;
 }
 
-.card__text {
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
-
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
@@ -199,6 +191,7 @@
 }
 
 .card__heading {
+  z-index: 1;
   color: #fff;
   font-weight: 700;
   font-size: 22px;
@@ -209,6 +202,7 @@
 }
 
 .card__content {
+  z-index: 1;
   color: #fff;
   font-weight: 400;
   font-size: 20px;
